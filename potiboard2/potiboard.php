@@ -2101,10 +2101,11 @@ function replace($no,$pwd,$stime){
 			$imgext = getImgType($img_type, $dest);
 	
 			chmod($dest,0606);
+			list($W, $H) = getimagesize($dest);
 			rename($dest,$path.$tim.$imgext);
 			$mes = "画像のアップロードが成功しました<br><br>";
 
-			//差し換え前と同じ大きさのサムネイル作成
+			//サムネイル作成
 			if(USE_THUMB) thumb($path,$tim,$imgext,$W,$H);
 			//ワークファイル削除
 			safe_unlink($upfile);
