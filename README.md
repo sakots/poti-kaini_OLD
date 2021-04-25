@@ -8,6 +8,12 @@ English translated version is here. [POTI-board Kai Ni-EN](https://github.com/sa
   
 [PaintBBS NEO](https://github.com/funige/neo/)
 
+## ！メインのリポジトリの移動について
+
+さこつの疲労と多忙と摩耗により、4/25日くらいよりさとぴあさんのリポジトリがメインのものとなります。
+よろしくお願いいたします。  
+[https://github.com/satopian/poti-kaini](https://github.com/satopian/poti-kaini)
+
 ## ！デジタルインク(windows Ink)の機能について
 
 デジタルインク(Window Ink)がオンの状態でPaintBBS NEO / しぃペインターを操作すると、
